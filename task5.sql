@@ -1,0 +1,1 @@
+SELECT FirstName, LastName, City, State, Country, PostalCode FROM Customer WHERE Country = "Canada" OR Country = "Germany" OR Country = "USA";

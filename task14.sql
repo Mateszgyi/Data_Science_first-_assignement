@@ -1,0 +1,1 @@
+select state, count(customer.state) as db from customer group by customer.state order by db desc limit 5;

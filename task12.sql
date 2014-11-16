@@ -1,0 +1,1 @@
+Select DISTINCT track.name, genre.name from Track left join Genre on track.genreid = genre.GenreId  where trackid in (1, 3, 5);

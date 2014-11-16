@@ -1,0 +1,1 @@
+select album.title from track inner join album on album.AlbumId = track.albumId limit 30;

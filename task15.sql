@@ -1,0 +1,1 @@
+select state, count(customer.state) as db from customer where not (state is null) group by customer.state;
